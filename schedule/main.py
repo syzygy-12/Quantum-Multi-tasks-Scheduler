@@ -13,6 +13,8 @@ import shutil
 from typing import List
 from pathlib import Path
 from PIL import Image
+from io import BytesIO
+import base64
 import re
 
 # Set up logging (this just prints messages to your terminal for debugging)
@@ -318,22 +320,32 @@ def from_program_generate_qpy(
     return
 
 @mcp.tool()
-def create_gif_with_custom_order(folder_path: str = "chip_schedules_full",
+def create_gif_with_custom_order(folder_path: str = "./chip_schedules_full",
                                file_pattern: str = None,
                                output_name: str = "custom_animation.gif",
-                               duration_ms: int = 800):
+                               duration_ms: int = 800,
+                               return_base64: bool = True):
     """
-    按自定义模式创建GIF，请使用默认配置
+    按自定义模式创建GIF，可选择返回Base64编码或保存文件
 
     Args:
-        folder_path: 文件夹路径
-        file_pattern: 文件名模式，如 None
-        output_name: 输出文件名
-        duration_ms: 每帧时长
+        folder_path: 文件夹路径，默认"chip_schedules_full"
+        file_pattern: 文件名模式，如 "active_at_*.png"
+        output_name: 输出文件名，默认"custom_animation.gif"
+        duration_ms: 每帧时长，默认800
+        return_base64: 是否返回Base64编码的图片内容，默认True
     """
 
     folder = Path(folder_path)
 
+    # 检查文件夹是否存在
+    if not folder.exists():
+        return f"错误: 文件夹 '{folder_path}' 不存在"
+    
+    if not folder.is_dir():
+        return f"错误: '{folder_path}' 不是文件夹"
+
+    # 获取PNG文件
     if file_pattern:
         png_files = list(folder.glob(file_pattern))
     else:
@@ -344,7 +356,6 @@ def create_gif_with_custom_order(folder_path: str = "chip_schedules_full",
 
     # 手动排序（可以根据需要修改）
     def custom_sort_key(file):
-        # 这里可以自定义排序逻辑
         name = file.stem  # 不包含扩展名的文件名
 
         # 示例：按时间排序
@@ -367,20 +378,57 @@ def create_gif_with_custom_order(folder_path: str = "chip_schedules_full",
         except Exception as e:
             failed_files.append(f"{file.name}: {e}")
 
-    if images:
-        output_path = folder / output_name
-        try:
-            images[0].save(output_path, save_all=True, append_images=images[1:], 
-                          duration=duration_ms, loop=0)
+    if not images:
+        return "没有成功加载任何图片文件"
+
+    # 确保所有图片尺寸一致
+    first_img_size = images[0].size
+    for i, img in enumerate(images):
+        if img.size != first_img_size:
+            print(f"调整图片尺寸: {png_files[i].name}")
+            images[i] = img.resize(first_img_size, Image.Resampling.LANCZOS)
+
+    # 创建内存缓冲区
+    buffer = BytesIO()
+    
+    try:
+        images[0].save(
+            buffer,
+            format='GIF',
+            save_all=True,
+            append_images=images[1:],
+            duration=duration_ms,
+            loop=0,
+            optimize=True
+        )
+        
+        if return_base64:
+            # 返回Base64编码的图片内容
+            gif_data = buffer.getvalue()
+            base64_encoded = base64.b64encode(gif_data).decode('utf-8')
+            
+            # 返回ImageContent对象
+            return ImageContent(
+                data=base64_encoded,
+                mimeType="image/gif",
+                type="image"
+            )
+        else:
+            # 保存到文件
+            output_path = folder / output_name
+            with open(output_path, 'wb') as f:
+                f.write(buffer.getvalue())
+            
             result = f"成功生成GIF: {output_path}\n"
             result += f"处理了 {len(images)} 个图片文件"
             if failed_files:
                 result += f"\n读取失败的文件:\n" + "\n".join(failed_files)
             return result
-        except Exception as e:
-            return f"生成GIF失败: {e}"
-    else:
-        return "没有成功加载任何图片文件"
+            
+    except Exception as e:
+        return f"生成GIF失败: {e}"
+
+
 
 # The return format should be one of the types defined in mcp.types. The commonly used ones include TextContent, ImageContent, BlobResourceContents.
 # In the case of a string, you can also directly use `return str(a + b)` which is equivalent to `return TextContent(type="text", text=str(a + b))`
