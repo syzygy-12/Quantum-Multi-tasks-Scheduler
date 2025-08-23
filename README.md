@@ -3,12 +3,10 @@
 A high-performance quantum task scheduler that optimizes quantum circuit placement on physical quantum computers with topology constraints, including SWAP gate cost calculation and parallel execution optimization.
 
 
-
-<img src="./ibm_rochester.gif" width="300" />
-
-<img src="./mesh66.gif" width="300" />
-
-
+<div>
+  <img src="./ibm_rochester.gif" width="400" />
+  <img src="./mesh66.gif" width="400" />
+</div>
 
 
 ## Features
