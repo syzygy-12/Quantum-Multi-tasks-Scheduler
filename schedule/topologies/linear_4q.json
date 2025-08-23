@@ -1,0 +1,28 @@
+{
+  "name": "linear_4q",
+  "nodes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "metadata": {
+    "num_nodes": 4,
+    "num_edges": 3,
+    "is_connected": true
+  }
+}

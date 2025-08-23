@@ -1,0 +1,91 @@
+[
+  {
+    "algo_id": "algorithm/complex_heavy.qpy",
+    "file": "algorithm/complex_heavy.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 6,
+    "size": 27,
+    "gate_counts": {
+      "cx": 9,
+      "u": 6,
+      "h": 6,
+      "measure": 6
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "algorithm/simple_bell.qpy",
+    "file": "algorithm/simple_bell.qpy",
+    "num_qubits": 2,
+    "num_clbits": 2,
+    "depth": 3,
+    "size": 4,
+    "gate_counts": {
+      "measure": 2,
+      "h": 1,
+      "cx": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  }
+]

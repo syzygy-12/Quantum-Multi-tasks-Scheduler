@@ -1,0 +1,535 @@
+[
+  {
+    "algo_id": "circuits\\basic_circuit_1_4q.qpy",
+    "file": "circuits\\basic_circuit_1_4q.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 2,
+    "size": 8,
+    "gate_counts": {
+      "measure": 4,
+      "u3": 3,
+      "u1": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\basic_circuit_2_3q.qpy",
+    "file": "circuits\\basic_circuit_2_3q.qpy",
+    "num_qubits": 3,
+    "num_clbits": 3,
+    "depth": 2,
+    "size": 6,
+    "gate_counts": {
+      "measure": 3,
+      "u3": 2,
+      "x": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\basic_circuit_3_3q.qpy",
+    "file": "circuits\\basic_circuit_3_3q.qpy",
+    "num_qubits": 3,
+    "num_clbits": 3,
+    "depth": 2,
+    "size": 6,
+    "gate_counts": {
+      "measure": 3,
+      "u3": 2,
+      "t": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\basic_circuit_4_4q.qpy",
+    "file": "circuits\\basic_circuit_4_4q.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 2,
+    "size": 6,
+    "gate_counts": {
+      "measure": 4,
+      "u3": 1,
+      "x": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\basic_circuit_5_5q.qpy",
+    "file": "circuits\\basic_circuit_5_5q.qpy",
+    "num_qubits": 5,
+    "num_clbits": 5,
+    "depth": 2,
+    "size": 9,
+    "gate_counts": {
+      "measure": 5,
+      "u2": 1,
+      "u3": 1,
+      "u1": 1,
+      "z": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\deutsch_jozsa_8qubit.qpy",
+    "file": "circuits\\deutsch_jozsa_8qubit.qpy",
+    "num_qubits": 8,
+    "num_clbits": 7,
+    "depth": 4,
+    "size": 11,
+    "gate_counts": {
+      "measure": 7,
+      "h": 2,
+      "u2": 1,
+      "cx": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\efficient_su2_2_2q_3reps.qpy",
+    "file": "circuits\\efficient_su2_2_2q_3reps.qpy",
+    "num_qubits": 2,
+    "num_clbits": 2,
+    "depth": 2,
+    "size": 3,
+    "gate_counts": {
+      "measure": 2,
+      "EfficientSU2": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\entangled_circuit_1_5q.qpy",
+    "file": "circuits\\entangled_circuit_1_5q.qpy",
+    "num_qubits": 5,
+    "num_clbits": 5,
+    "depth": 7,
+    "size": 12,
+    "gate_counts": {
+      "measure": 5,
+      "cx": 4,
+      "x": 2,
+      "h": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "degree_by_qubit": [
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\entangled_circuit_2_4q.qpy",
+    "file": "circuits\\entangled_circuit_2_4q.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 6,
+    "size": 10,
+    "gate_counts": {
+      "measure": 4,
+      "cx": 3,
+      "h": 1,
+      "x": 1,
+      "y": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\entangled_circuit_3_2q.qpy",
+    "file": "circuits\\entangled_circuit_3_2q.qpy",
+    "num_qubits": 2,
+    "num_clbits": 2,
+    "depth": 4,
+    "size": 5,
+    "gate_counts": {
+      "h": 2,
+      "measure": 2,
+      "cx": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\entangled_circuit_4_4q.qpy",
+    "file": "circuits\\entangled_circuit_4_4q.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 6,
+    "size": 12,
+    "gate_counts": {
+      "measure": 4,
+      "cx": 3,
+      "x": 3,
+      "h": 1,
+      "z": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\grover_6qubit.qpy",
+    "file": "circuits\\grover_6qubit.qpy",
+    "num_qubits": 6,
+    "num_clbits": 0,
+    "depth": 5,
+    "size": 19,
+    "gate_counts": {
+      "u2": 11,
+      "h": 5,
+      "mcphase": 2,
+      "u3": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\qft_circuit_1_4q.qpy",
+    "file": "circuits\\qft_circuit_1_4q.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 2,
+    "size": 5,
+    "gate_counts": {
+      "measure": 4,
+      "QFT": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\qft_circuit_2_5q.qpy",
+    "file": "circuits\\qft_circuit_2_5q.qpy",
+    "num_qubits": 5,
+    "num_clbits": 5,
+    "depth": 2,
+    "size": 6,
+    "gate_counts": {
+      "measure": 5,
+      "QFT": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\quantum_teleportation.qpy",
+    "file": "circuits\\quantum_teleportation.qpy",
+    "num_qubits": 3,
+    "num_clbits": 3,
+    "depth": 7,
+    "size": 10,
+    "gate_counts": {
+      "cx": 3,
+      "measure": 3,
+      "h": 2,
+      "x": 1,
+      "cz": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      2,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\real_amplitudes_1_4q_1reps.qpy",
+    "file": "circuits\\real_amplitudes_1_4q_1reps.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 2,
+    "size": 5,
+    "gate_counts": {
+      "measure": 4,
+      "RealAmplitudes": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\real_amplitudes_3_4q_2reps.qpy",
+    "file": "circuits\\real_amplitudes_3_4q_2reps.qpy",
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "depth": 2,
+    "size": 5,
+    "gate_counts": {
+      "measure": 4,
+      "RealAmplitudes": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\real_amplitudes_4_2q_1reps.qpy",
+    "file": "circuits\\real_amplitudes_4_2q_1reps.qpy",
+    "num_qubits": 2,
+    "num_clbits": 2,
+    "depth": 2,
+    "size": 3,
+    "gate_counts": {
+      "measure": 2,
+      "RealAmplitudes": 1,
+      "barrier": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "circuits\\swap_test.qpy",
+    "file": "circuits\\swap_test.qpy",
+    "num_qubits": 3,
+    "num_clbits": 1,
+    "depth": 4,
+    "size": 6,
+    "gate_counts": {
+      "h": 3,
+      "x": 1,
+      "cswap": 1,
+      "measure": 1
+    },
+    "connectivity_topology": [],
+    "degree_by_qubit": [
+      0,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  }
+]
