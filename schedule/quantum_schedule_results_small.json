@@ -1,0 +1,904 @@
+{
+  "configuration": {
+    "topology_type": "6*6 rid",
+    "total_qubits": 36,
+    "swap_cost": 1.0,
+    "total_tasks": 30,
+    "scheduled_tasks": 30
+  },
+  "performance": {
+    "sequential_runtime": 190.0,
+    "actual_runtime": 23.0,
+    "speedup": 8.26,
+    "parallelization_efficiency_percent": 826.1,
+    "max_parallel_tasks": 11
+  },
+  "schedule": [
+    {
+      "task_id": 11,
+      "start_time": 0,
+      "duration": 2.0,
+      "physical_qubits": [
+        0,
+        1
+      ],
+      "embedding": {
+        "0": 0,
+        "1": 1
+      }
+    },
+    {
+      "task_id": 20,
+      "start_time": 0,
+      "duration": 2.0,
+      "physical_qubits": [
+        2,
+        8
+      ],
+      "embedding": {
+        "0": 2,
+        "1": 8
+      }
+    },
+    {
+      "task_id": 5,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        3,
+        9
+      ],
+      "embedding": {
+        "0": 3,
+        "1": 9
+      }
+    },
+    {
+      "task_id": 10,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        4,
+        10
+      ],
+      "embedding": {
+        "0": 4,
+        "1": 10
+      }
+    },
+    {
+      "task_id": 9,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        11,
+        16,
+        17
+      ],
+      "embedding": {
+        "0": 11,
+        "1": 16,
+        "2": 17
+      }
+    },
+    {
+      "task_id": 16,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        19,
+        20,
+        25
+      ],
+      "embedding": {
+        "0": 19,
+        "1": 20,
+        "2": 25
+      }
+    },
+    {
+      "task_id": 4,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        6,
+        12,
+        13,
+        18
+      ],
+      "embedding": {
+        "0": 6,
+        "1": 12,
+        "2": 13,
+        "3": 18
+      }
+    },
+    {
+      "task_id": 25,
+      "start_time": 0,
+      "duration": 4.0,
+      "physical_qubits": [
+        27,
+        28,
+        33,
+        34
+      ],
+      "embedding": {
+        "0": 27,
+        "1": 28,
+        "2": 33,
+        "3": 34
+      }
+    },
+    {
+      "task_id": 30,
+      "start_time": 0,
+      "duration": 6.0,
+      "physical_qubits": [
+        24,
+        30,
+        31,
+        32
+      ],
+      "embedding": {
+        "0": 24,
+        "1": 30,
+        "2": 31,
+        "3": 32
+      }
+    },
+    {
+      "task_id": 1,
+      "start_time": 0,
+      "duration": 5.0,
+      "physical_qubits": [
+        23,
+        29,
+        35
+      ],
+      "embedding": {
+        "0": 23,
+        "1": 29,
+        "2": 35
+      }
+    },
+    {
+      "task_id": 7,
+      "start_time": 0,
+      "duration": 7.0,
+      "physical_qubits": [
+        14,
+        15,
+        21,
+        22
+      ],
+      "embedding": {
+        "0": 14,
+        "1": 15,
+        "2": 21,
+        "3": 22
+      }
+    },
+    {
+      "task_id": 19,
+      "start_time": 2.0,
+      "duration": 6.0,
+      "physical_qubits": [
+        0,
+        1
+      ],
+      "embedding": {
+        "0": 0,
+        "1": 1
+      }
+    },
+    {
+      "task_id": 22,
+      "start_time": 2.0,
+      "duration": 6.0,
+      "physical_qubits": [
+        2,
+        8
+      ],
+      "embedding": {
+        "0": 2,
+        "1": 8
+      }
+    },
+    {
+      "task_id": 24,
+      "start_time": 4.0,
+      "duration": 6.0,
+      "physical_qubits": [
+        3,
+        4
+      ],
+      "embedding": {
+        "0": 3,
+        "1": 4
+      }
+    },
+    {
+      "task_id": 2,
+      "start_time": 4.0,
+      "duration": 7.0,
+      "physical_qubits": [
+        5,
+        10,
+        11
+      ],
+      "embedding": {
+        "0": 5,
+        "1": 10,
+        "2": 11
+      }
+    },
+    {
+      "task_id": 8,
+      "start_time": 4.0,
+      "duration": 6.0,
+      "physical_qubits": [
+        26,
+        27,
+        33
+      ],
+      "embedding": {
+        "0": 26,
+        "1": 27,
+        "2": 33
+      }
+    },
+    {
+      "task_id": 26,
+      "start_time": 4.0,
+      "duration": 6.0,
+      "physical_qubits": [
+        13,
+        18,
+        19
+      ],
+      "embedding": {
+        "0": 13,
+        "1": 18,
+        "2": 19
+      }
+    },
+    {
+      "task_id": 6,
+      "start_time": 5.0,
+      "duration": 7.0,
+      "physical_qubits": [
+        28,
+        29,
+        34,
+        35
+      ],
+      "embedding": {
+        "0": 28,
+        "1": 29,
+        "2": 34,
+        "3": 35
+      }
+    },
+    {
+      "task_id": 15,
+      "start_time": 6.0,
+      "duration": 7.0,
+      "physical_qubits": [
+        24,
+        25,
+        31,
+        32
+      ],
+      "embedding": {
+        "0": 24,
+        "1": 25,
+        "2": 31,
+        "3": 32
+      }
+    },
+    {
+      "task_id": 21,
+      "start_time": 7.0,
+      "duration": 7.0,
+      "physical_qubits": [
+        15,
+        16,
+        17,
+        21
+      ],
+      "embedding": {
+        "0": 15,
+        "1": 16,
+        "2": 17,
+        "3": 21
+      }
+    },
+    {
+      "task_id": 28,
+      "start_time": 4.0,
+      "duration": 7.0,
+      "physical_qubits": [
+        6,
+        12
+      ],
+      "embedding": {
+        "0": 6,
+        "1": 12
+      }
+    },
+    {
+      "task_id": 13,
+      "start_time": 8.0,
+      "duration": 8.0,
+      "physical_qubits": [
+        0,
+        1,
+        2
+      ],
+      "embedding": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "task_id": 27,
+      "start_time": 8.0,
+      "duration": 8.0,
+      "physical_qubits": [
+        7,
+        8,
+        14
+      ],
+      "embedding": {
+        "0": 7,
+        "1": 8,
+        "2": 14
+      }
+    },
+    {
+      "task_id": 23,
+      "start_time": 7.0,
+      "duration": 8.0,
+      "physical_qubits": [
+        22,
+        23
+      ],
+      "embedding": {
+        "0": 22,
+        "1": 23
+      }
+    },
+    {
+      "task_id": 14,
+      "start_time": 10.0,
+      "duration": 9.0,
+      "physical_qubits": [
+        26,
+        27,
+        33
+      ],
+      "embedding": {
+        "0": 26,
+        "1": 27,
+        "2": 33
+      }
+    },
+    {
+      "task_id": 3,
+      "start_time": 11.0,
+      "duration": 9.0,
+      "physical_qubits": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "embedding": {
+        "0": 3,
+        "1": 4,
+        "2": 9,
+        "3": 10
+      }
+    },
+    {
+      "task_id": 12,
+      "start_time": 10.0,
+      "duration": 8.0,
+      "physical_qubits": [
+        13,
+        18,
+        19,
+        20
+      ],
+      "embedding": {
+        "0": 13,
+        "1": 18,
+        "2": 19,
+        "3": 20
+      }
+    },
+    {
+      "task_id": 18,
+      "start_time": 12.0,
+      "duration": 9.0,
+      "physical_qubits": [
+        28,
+        29,
+        34,
+        35
+      ],
+      "embedding": {
+        "0": 28,
+        "1": 29,
+        "2": 34,
+        "3": 35
+      }
+    },
+    {
+      "task_id": 29,
+      "start_time": 13.0,
+      "duration": 10.0,
+      "physical_qubits": [
+        25,
+        31,
+        32
+      ],
+      "embedding": {
+        "0": 25,
+        "1": 31,
+        "2": 32
+      }
+    },
+    {
+      "task_id": 17,
+      "start_time": 11.0,
+      "duration": 10.0,
+      "physical_qubits": [
+        5,
+        11
+      ],
+      "embedding": {
+        "0": 5,
+        "1": 11
+      }
+    }
+  ],
+  "task_details": [
+    {
+      "task_id": 1,
+      "qubits_needed": 3,
+      "base_duration": 5,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 2,
+      "qubits_needed": 3,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 3,
+      "qubits_needed": 4,
+      "base_duration": 8,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "task_id": 4,
+      "qubits_needed": 4,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 5,
+      "qubits_needed": 2,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 6,
+      "qubits_needed": 4,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 7,
+      "qubits_needed": 4,
+      "base_duration": 5,
+      "topology_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "task_id": 8,
+      "qubits_needed": 3,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 9,
+      "qubits_needed": 3,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 10,
+      "qubits_needed": 2,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 11,
+      "qubits_needed": 2,
+      "base_duration": 2,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 12,
+      "qubits_needed": 4,
+      "base_duration": 8,
+      "topology_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "task_id": 13,
+      "qubits_needed": 3,
+      "base_duration": 7,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 14,
+      "qubits_needed": 3,
+      "base_duration": 8,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 15,
+      "qubits_needed": 4,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "task_id": 16,
+      "qubits_needed": 3,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 17,
+      "qubits_needed": 2,
+      "base_duration": 10,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 18,
+      "qubits_needed": 4,
+      "base_duration": 8,
+      "topology_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "task_id": 19,
+      "qubits_needed": 2,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 20,
+      "qubits_needed": 2,
+      "base_duration": 2,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 21,
+      "qubits_needed": 4,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 22,
+      "qubits_needed": 2,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 23,
+      "qubits_needed": 2,
+      "base_duration": 8,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 24,
+      "qubits_needed": 2,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 25,
+      "qubits_needed": 4,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 26,
+      "qubits_needed": 3,
+      "base_duration": 6,
+      "topology_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 27,
+      "qubits_needed": 3,
+      "base_duration": 7,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 28,
+      "qubits_needed": 2,
+      "base_duration": 7,
+      "topology_edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "task_id": 29,
+      "qubits_needed": 3,
+      "base_duration": 9,
+      "topology_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "task_id": 30,
+      "qubits_needed": 4,
+      "base_duration": 4,
+      "topology_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  ]
+}

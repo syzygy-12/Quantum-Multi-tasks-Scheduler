@@ -121,39 +121,6 @@
     "estimated_runtime_seconds": null
   },
   {
-    "algo_id": "circuits\\deutsch_jozsa_8qubit.qpy",
-    "file": "circuits\\deutsch_jozsa_8qubit.qpy",
-    "num_qubits": 8,
-    "num_clbits": 7,
-    "depth": 4,
-    "size": 11,
-    "gate_counts": {
-      "measure": 7,
-      "h": 2,
-      "u2": 1,
-      "cx": 1
-    },
-    "connectivity_topology": [
-      [
-        0,
-        7
-      ]
-    ],
-    "degree_by_qubit": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "transpiled_basis_gates": null,
-    "coupling_map": null,
-    "estimated_runtime_seconds": null
-  },
-  {
     "algo_id": "circuits\\efficient_su2_2_2q_3reps.qpy",
     "file": "circuits\\efficient_su2_2_2q_3reps.qpy",
     "num_qubits": 2,
@@ -328,17 +295,17 @@
     "estimated_runtime_seconds": null
   },
   {
-    "algo_id": "circuits\\grover_6qubit.qpy",
-    "file": "circuits\\grover_6qubit.qpy",
+    "algo_id": "circuits\\grover_6q.qpy",
+    "file": "circuits\\grover_6q.qpy",
     "num_qubits": 6,
     "num_clbits": 0,
-    "depth": 5,
-    "size": 19,
+    "depth": 25,
+    "size": 90,
     "gate_counts": {
-      "u2": 11,
-      "h": 5,
-      "mcphase": 2,
-      "u3": 1
+      "u2": 72,
+      "barrier": 13,
+      "mcphase": 12,
+      "h": 6
     },
     "connectivity_topology": [],
     "degree_by_qubit": [

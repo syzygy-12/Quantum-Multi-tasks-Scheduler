@@ -178,6 +178,7 @@ class QuantumScheduler:
                             best_start_time = slot_time
                             best_embedding = embedding
                             best_duration = slot_time + duration
+                            task.adjusted_duration = duration
                 
                 if best_start_time is not None:
                     # Schedule the task
@@ -426,18 +427,18 @@ def main():
 
 
     # Calculate theoretical sequential time
-    total_base_time = sum(t.d for t in tasks)
-    sequential_time = total_base_time
+    total_runtime = scheduler.get_total_runtime(schedule)
+    print(f"Total runtime: {total_runtime:.2f} time units")
     
-    # Calculate actual time with parallelization
-    actual_runtime = scheduler.get_total_runtime(schedule)
-    
-    # Calculate parallelization efficiency
-    efficiency = sequential_time / actual_runtime if actual_runtime > 0 else 0
+    # Additional analysis
+    total_base_time = sum(t.d for t in tasks) # without SWAP
+    total_adjusted_time = sum(t.adjusted_duration for t in tasks if hasattr(t, 'adjusted_duration')) # with SWAP
+    efficiency = total_adjusted_time / total_runtime if total_runtime > 0 else 0
+
     
     print(f"\nParallelization Analysis:")
-    print(f"  Sequential runtime: {sequential_time} time units")
-    print(f"  Actual runtime: {actual_runtime:.2f} time units")
+    print(f"  Sequential runtime: {total_adjusted_time} time units")
+    print(f"  Total runtime: {total_runtime:.2f} time units")
     print(f"  Speedup: {efficiency:.2f}x")
     print(f"  Parallelization efficiency: {(efficiency * 100):.1f}%")
     
@@ -467,16 +468,10 @@ def main():
     
     print()
     
-    total_runtime = scheduler.get_total_runtime(schedule)
-    print(f"Total runtime: {total_runtime:.2f} time units")
     
-    # Additional analysis
-    total_base_time = sum(t.d for t in tasks)
-    total_adjusted_time = sum(t.adjusted_duration for t in tasks if hasattr(t, 'adjusted_duration'))
-    efficiency = total_base_time / total_adjusted_time if total_adjusted_time > 0 else 0
     
-    print(f"Total base time: {total_base_time}")
-    print(f"Total adjusted time: {total_adjusted_time:.2f}")
+    print(f"Total base time (without SWAP cost): {total_base_time}")
+    print(f"Total adjusted time (with SWAP cost): {total_adjusted_time:.2f}")
     print(f"SWAP overhead ratio: {((total_adjusted_time - total_base_time) / total_base_time * 100):.1f}%")
 
     # ========== 追加：每个调度时刻绘图，显示当时“所有正在运行”的任务 ==========

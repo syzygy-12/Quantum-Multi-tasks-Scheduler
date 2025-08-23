@@ -224,9 +224,10 @@ def quantum_task_scheduler(
         
         # Calculate performance metrics
         total_base_time = sum(t.d for t in tasks)
+        total_adjusted_time = sum(t.adjusted_duration for t in tasks if hasattr(t, 'adjusted_duration'))
         actual_runtime = scheduler.get_total_runtime(schedule)
-        efficiency = total_base_time / actual_runtime if actual_runtime > 0 else 0
-        
+        efficiency = total_adjusted_time / actual_runtime if actual_runtime > 0 else 0
+
         # Analyze parallel execution
         schedule_by_time = {}
         for task_id, start_time, embedding, adjusted_duration in schedule:
@@ -246,7 +247,7 @@ def quantum_task_scheduler(
                 "scheduled_tasks": len(schedule)
             },
             "performance": {
-                "sequential_runtime": total_base_time,
+                "sequential_runtime": total_adjusted_time,
                 "actual_runtime": actual_runtime,
                 "speedup": round(efficiency, 2),
                 "parallelization_efficiency_percent": round(efficiency * 100, 1),
@@ -289,7 +290,7 @@ Configuration:
 - Scheduled tasks: {len(schedule)}
 
 Performance Analysis:
-- Sequential runtime: {total_base_time} time units
+- Sequential runtime: {total_adjusted_time} time units
 - Actual runtime: {actual_runtime:.2f} time units
 - Speedup achieved: {efficiency:.2f}x
 - Parallelization efficiency: {(efficiency * 100):.1f}%

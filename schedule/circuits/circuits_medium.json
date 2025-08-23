@@ -1,0 +1,1709 @@
+[
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_10_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_10_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 5,
+    "size": 20,
+    "gate_counts": {
+      "measure": 8,
+      "u1": 2,
+      "cx": 2,
+      "tdg": 2,
+      "cz": 2,
+      "s": 1,
+      "z": 1,
+      "y": 1,
+      "rz": 1
+    },
+    "connectivity_topology": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      0,
+      1,
+      1,
+      2,
+      0,
+      2,
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_11_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_11_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 4,
+    "size": 17,
+    "gate_counts": {
+      "measure": 8,
+      "cz": 3,
+      "z": 2,
+      "y": 2,
+      "cx": 1,
+      "u1": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_12_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_12_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 5,
+    "size": 17,
+    "gate_counts": {
+      "measure": 6,
+      "cz": 2,
+      "cx": 2,
+      "rz": 1,
+      "rx": 1,
+      "u1": 1,
+      "z": 1,
+      "t": 1,
+      "sdg": 1,
+      "u3": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      0,
+      2,
+      1,
+      2,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_13_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_13_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 7,
+    "size": 16,
+    "gate_counts": {
+      "measure": 6,
+      "cx": 2,
+      "ry": 2,
+      "u3": 2,
+      "rz": 1,
+      "x": 1,
+      "tdg": 1,
+      "cz": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_14_9q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_14_9q.qpy",
+    "num_qubits": 9,
+    "num_clbits": 9,
+    "depth": 6,
+    "size": 22,
+    "gate_counts": {
+      "measure": 9,
+      "cz": 5,
+      "u3": 2,
+      "cx": 2,
+      "u1": 1,
+      "z": 1,
+      "tdg": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      2,
+      2,
+      0,
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_15_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_15_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 5,
+    "size": 20,
+    "gate_counts": {
+      "measure": 8,
+      "h": 2,
+      "u3": 2,
+      "cz": 2,
+      "tdg": 1,
+      "z": 1,
+      "x": 1,
+      "cx": 1,
+      "rz": 1,
+      "s": 1
+    },
+    "connectivity_topology": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_16_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_16_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 12,
+    "size": 26,
+    "gate_counts": {
+      "cx": 6,
+      "measure": 6,
+      "cz": 5,
+      "rz": 2,
+      "t": 2,
+      "ry": 1,
+      "u3": 1,
+      "y": 1,
+      "x": 1,
+      "u2": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      4,
+      3,
+      3,
+      1,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_17_9q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_17_9q.qpy",
+    "num_qubits": 9,
+    "num_clbits": 9,
+    "depth": 5,
+    "size": 18,
+    "gate_counts": {
+      "measure": 9,
+      "u2": 3,
+      "cx": 3,
+      "s": 2,
+      "rx": 1
+    },
+    "connectivity_topology": [
+      [
+        2,
+        8
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "degree_by_qubit": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_18_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_18_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 9,
+    "size": 21,
+    "gate_counts": {
+      "measure": 6,
+      "cx": 4,
+      "y": 2,
+      "u3": 2,
+      "u1": 1,
+      "z": 1,
+      "cz": 1,
+      "u2": 1,
+      "tdg": 1,
+      "h": 1,
+      "rz": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      1,
+      2,
+      0,
+      3,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_19_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_19_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 9,
+    "size": 28,
+    "gate_counts": {
+      "measure": 8,
+      "cx": 6,
+      "cz": 4,
+      "u3": 4,
+      "h": 2,
+      "u1": 1,
+      "rx": 1,
+      "ry": 1,
+      "tdg": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      0,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_1_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_1_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 10,
+    "size": 24,
+    "gate_counts": {
+      "measure": 7,
+      "cx": 6,
+      "cz": 3,
+      "sdg": 1,
+      "tdg": 1,
+      "y": 1,
+      "x": 1,
+      "rx": 1,
+      "s": 1,
+      "u3": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      1,
+      0,
+      3,
+      2,
+      2,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_20_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_20_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 7,
+    "size": 21,
+    "gate_counts": {
+      "measure": 7,
+      "cz": 5,
+      "cx": 3,
+      "u3": 1,
+      "x": 1,
+      "s": 1,
+      "sdg": 1,
+      "rz": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      0,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_21_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_21_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 5,
+    "size": 20,
+    "gate_counts": {
+      "measure": 8,
+      "cz": 5,
+      "cx": 3,
+      "rx": 2,
+      "t": 1,
+      "tdg": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      1,
+      3,
+      0,
+      2,
+      1,
+      2,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_22_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_22_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 6,
+    "size": 19,
+    "gate_counts": {
+      "measure": 6,
+      "cz": 4,
+      "rx": 2,
+      "cx": 2,
+      "u2": 1,
+      "h": 1,
+      "rz": 1,
+      "u3": 1,
+      "z": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_23_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_23_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 7,
+    "size": 19,
+    "gate_counts": {
+      "measure": 7,
+      "cx": 5,
+      "cz": 2,
+      "t": 2,
+      "u2": 1,
+      "x": 1,
+      "y": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      4,
+      1
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_24_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_24_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 11,
+    "size": 26,
+    "gate_counts": {
+      "cx": 6,
+      "measure": 6,
+      "s": 4,
+      "cz": 3,
+      "rx": 1,
+      "u1": 1,
+      "tdg": 1,
+      "x": 1,
+      "rz": 1,
+      "u3": 1,
+      "h": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      3,
+      0,
+      4,
+      3,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_25_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_25_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 6,
+    "size": 25,
+    "gate_counts": {
+      "measure": 8,
+      "cz": 5,
+      "cx": 3,
+      "u1": 2,
+      "u3": 2,
+      "h": 1,
+      "t": 1,
+      "rz": 1,
+      "s": 1,
+      "y": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      1,
+      2,
+      0,
+      1,
+      2,
+      1,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_26_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_26_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 4,
+    "size": 18,
+    "gate_counts": {
+      "measure": 7,
+      "cx": 3,
+      "cz": 2,
+      "u3": 2,
+      "x": 1,
+      "tdg": 1,
+      "z": 1,
+      "u2": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_27_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_27_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 6,
+    "size": 20,
+    "gate_counts": {
+      "measure": 7,
+      "cz": 4,
+      "cx": 3,
+      "u3": 2,
+      "rx": 1,
+      "z": 1,
+      "rz": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_28_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_28_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 6,
+    "size": 15,
+    "gate_counts": {
+      "measure": 7,
+      "cz": 3,
+      "u1": 1,
+      "cx": 1,
+      "rz": 1,
+      "x": 1,
+      "u3": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_29_7q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_29_7q.qpy",
+    "num_qubits": 7,
+    "num_clbits": 7,
+    "depth": 5,
+    "size": 22,
+    "gate_counts": {
+      "measure": 7,
+      "u3": 5,
+      "cx": 4,
+      "cz": 2,
+      "rz": 2,
+      "t": 1,
+      "sdg": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "degree_by_qubit": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_2_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_2_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 9,
+    "size": 30,
+    "gate_counts": {
+      "measure": 8,
+      "cz": 7,
+      "cx": 4,
+      "t": 2,
+      "tdg": 2,
+      "rz": 2,
+      "s": 1,
+      "u2": 1,
+      "sdg": 1,
+      "u3": 1,
+      "y": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      3,
+      2,
+      2,
+      3,
+      1,
+      2,
+      4
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_30_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_30_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 7,
+    "size": 25,
+    "gate_counts": {
+      "measure": 8,
+      "cx": 4,
+      "cz": 3,
+      "u2": 2,
+      "y": 1,
+      "s": 1,
+      "x": 1,
+      "u1": 1,
+      "u3": 1,
+      "h": 1,
+      "rz": 1,
+      "t": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_3_9q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_3_9q.qpy",
+    "num_qubits": 9,
+    "num_clbits": 9,
+    "depth": 6,
+    "size": 24,
+    "gate_counts": {
+      "measure": 9,
+      "cz": 3,
+      "cx": 3,
+      "t": 2,
+      "sdg": 1,
+      "h": 1,
+      "u1": 1,
+      "u3": 1,
+      "y": 1,
+      "rz": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1,
+      1,
+      3,
+      2,
+      0,
+      1,
+      3,
+      0
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_4_9q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_4_9q.qpy",
+    "num_qubits": 9,
+    "num_clbits": 9,
+    "depth": 7,
+    "size": 21,
+    "gate_counts": {
+      "measure": 9,
+      "cx": 3,
+      "tdg": 2,
+      "cz": 2,
+      "h": 1,
+      "sdg": 1,
+      "u1": 1,
+      "t": 1,
+      "x": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      2,
+      1,
+      0,
+      2,
+      2,
+      0,
+      0,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_5_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_5_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 13,
+    "size": 26,
+    "gate_counts": {
+      "cx": 7,
+      "measure": 6,
+      "ry": 3,
+      "cz": 3,
+      "x": 2,
+      "sdg": 1,
+      "tdg": 1,
+      "t": 1,
+      "y": 1,
+      "u3": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      3,
+      2,
+      1,
+      3,
+      3,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_6_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_6_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 7,
+    "size": 21,
+    "gate_counts": {
+      "measure": 8,
+      "cx": 3,
+      "cz": 3,
+      "u3": 2,
+      "u1": 1,
+      "rx": 1,
+      "t": 1,
+      "z": 1,
+      "tdg": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      3,
+      0,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_7_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_7_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 11,
+    "size": 27,
+    "gate_counts": {
+      "cz": 7,
+      "measure": 6,
+      "u3": 3,
+      "cx": 3,
+      "y": 2,
+      "h": 1,
+      "x": 1,
+      "sdg": 1,
+      "rx": 1,
+      "u1": 1,
+      "ry": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      4,
+      4,
+      2,
+      1,
+      2,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_8_6q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_8_6q.qpy",
+    "num_qubits": 6,
+    "num_clbits": 6,
+    "depth": 9,
+    "size": 25,
+    "gate_counts": {
+      "cx": 7,
+      "measure": 6,
+      "cz": 3,
+      "rz": 2,
+      "ry": 2,
+      "h": 1,
+      "sdg": 1,
+      "x": 1,
+      "u3": 1,
+      "rx": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree_by_qubit": [
+      4,
+      2,
+      3,
+      4,
+      3,
+      2
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  },
+  {
+    "algo_id": "medium_qubit_circuits\\medium_circuit_9_8q.qpy",
+    "file": "medium_qubit_circuits\\medium_circuit_9_8q.qpy",
+    "num_qubits": 8,
+    "num_clbits": 8,
+    "depth": 8,
+    "size": 23,
+    "gate_counts": {
+      "measure": 8,
+      "cz": 5,
+      "cx": 3,
+      "z": 2,
+      "ry": 2,
+      "u1": 1,
+      "h": 1,
+      "tdg": 1
+    },
+    "connectivity_topology": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "degree_by_qubit": [
+      1,
+      1,
+      0,
+      3,
+      2,
+      2,
+      2,
+      3
+    ],
+    "transpiled_basis_gates": null,
+    "coupling_map": null,
+    "estimated_runtime_seconds": null
+  }
+]
