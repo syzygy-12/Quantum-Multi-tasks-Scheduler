@@ -4,11 +4,10 @@ A high-performance quantum task scheduler that optimizes quantum circuit placeme
 
 
 
-![ibm_rochester](./ibm_rochester.gif){: width="500"}
+<img src="./ibm_rochester.gif" width="500" />
 
+<img src="./mesh66.gif" width="500" />
 
-
-![mesh66](./mesh66.gif){: width="500"}
 
 
 
